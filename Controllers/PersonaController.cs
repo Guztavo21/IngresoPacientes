@@ -19,10 +19,18 @@ namespace IngresoInformacion.Controllers
         }
 
         // Acción para mostrar los resultados (por ejemplo)
-        public IActionResult Resultados()
+        public IActionResult Resultado()
+{
+        // Crear un objeto de ejemplo, puedes remplazarlo por datos de base de datos
+        var persona = new Persona
         {
-            return View();
-        }
+            Nombre = "Juan",
+            Apellido = "Pérez"
+        };
+
+        // Pasar el objeto persona a la vista
+        return View(persona);
+    }
     }
     
 }

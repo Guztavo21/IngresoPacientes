@@ -28,3 +28,4 @@ C:\Users\guzta\IngresoInformacion\obj\Debug\net8.0\refint\IngresoInformacion.dll
 C:\Users\guzta\IngresoInformacion\obj\Debug\net8.0\IngresoInformacion.pdb
 C:\Users\guzta\IngresoInformacion\obj\Debug\net8.0\IngresoInformacion.genruntimeconfig.cache
 C:\Users\guzta\IngresoInformacion\obj\Debug\net8.0\ref\IngresoInformacion.dll
+C:\Users\guzta\IngresoInformacion\obj\Debug\net8.0\IngresoInformacion.sourcelink.json
