@@ -1,0 +1,22 @@
+@model IngresoInformacion.Models.Persona
+
+@{
+    ViewData["Title"] = "Ingresar Información";
+}
+
+<div class="container" style="margin-top: 100px;"> <!-- Agregar margen superior suficiente -->
+    <h1 class="my-4">Ingresar Información</h1>
+    <form method="post">
+        <div class="mb-3">
+            <label for="Nombre" class="form-label">Nombre</label>
+            <input asp-for="Nombre" class="form-control" />
+            <span asp-validation-for="Nombre" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label for="Apellido" class="form-label">Apellido</label>
+            <input asp-for="Apellido" class="form-control" />
+            <span asp-validation-for="Apellido" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Guardar</button>
+    </form>
+</div>
